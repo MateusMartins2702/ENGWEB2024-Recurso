@@ -2,12 +2,14 @@
 
 ## Setup
 
-1. Trocar "bookId" por "_id"
-2. Remover o '[]' do inicio do ficheiro
-3. Converter de lista (em forma de string) para lista (com ajuda de regex no find and replace)
-4. Trocar os \" e ' para apenas "
-5. Converter alguns campos para número em vez de string
-6. mongoimport -d livros -c livros datasetNovo.json
+Em primeiro logar  troquei "bookId" por "_id"
+A seguir removi o '[]' do inicio do ficheiro
+Converti ainda de lista (em forma de string) para lista (com ajuda de regex no find and replace)
+De seguida troquei os \" e ' para apenas "
+E para finalizar ainda converti alguns campos para número em vez de string
+
+
+Após tudo isto correr no terminal: mongoimport -d livros -c livros datasetNovo.json
 
 ## HTML
-decidi escolher o nome do autor para fazer de ID, por simplicidade
+Para tornar mais simples optei por escolher o nome do autor para fazer de ID.
